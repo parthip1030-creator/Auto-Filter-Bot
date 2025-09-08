@@ -1,17 +1,24 @@
 class script(object):
 
-    START_TXT = """<b>ʜᴇʏ {}, <i>{}</i>
+    START_TXT = """<b>🦇 Wᴇʟᴄᴏᴍᴇ ᴛᴏ Gᴏᴀᴛʜᴀᴍ, {} 🌌, <i>{}</i>
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
+I’ᴍ Batman 🤖 – ʏᴏᴜʀ ᴘᴇʀsᴏɴᴀʟ Movie Sᴇᴀʀᴄʜ & Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ.  
+
+🎬 Sᴇᴀʀᴄʜ ᴀɴʏ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs  
+🔎 I’ʟʟ ʙʀɪɴɢ ɪᴛ ғʀᴏᴍ ᴛʜᴇ sʜᴀᴅᴏᴡs  
+📂 Iɴsᴛᴀɴᴛ ғɪʟᴇ ʟɪɴᴋs | Hᴅ Qᴜᴀʟɪᴛʏ  
+
+⚡ Aᴅᴅ ᴍᴇ ᴀs 𝗔ᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ → I’ʟʟ ᴘᴀᴛʀᴏʟ ʏᴏᴜʀ ғɪʟᴇs.  
+🖤 I ᴀᴍ Batman… ᴀɴᴅ I'll ɴᴇᴠᴇʀ ʟᴇᴛ ʏᴏᴜ ʀᴜɴ ᴏᴜᴛ ᴏғ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ.♻️</b>"""
 
     MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
 ★ Database: <a href=https://www.mongodb.com>MongoDB</a>
 ★ Language: <a href=https://www.python.org>Python</a>
 ★ Library: <a href=https://t.me/HydrogramNews>Hydrogram</a>"""
 
-    MY_OWNER_TXT = """★ Name: HA Bots
-★ Username: @HA_Bots
-★ Country: Sri Lanka 🇱🇰"""
+    MY_OWNER_TXT = """★ Name: Cɪɴᴇꜰʟɪx
+★ Username: @CFUpdates
+★ Country: India 🇮🇳"""
 
     STATUS_TXT = """👤 Total Users: <code>{}</code>
 😎 Premium Users: <code>{}</code>
