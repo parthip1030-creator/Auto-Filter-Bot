@@ -50,7 +50,7 @@ else:
     ADMINS = [int(admins) for admins in ADMINS.split()]
 
 # Channels
-INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '').split()]
+INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-1002899768746") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '').split()]
 if len(INDEX_CHANNELS) == 0:
     logger.info('INDEX_CHANNELS is empty')
 LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002933718411')
@@ -61,7 +61,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
     
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '-1002879093157')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
 if len(SUPPORT_GROUP) == 0:
     logger.error('SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -84,9 +84,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/HA_Bots_Support')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/MoviepubGroup')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/HA_Bots')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/HA_Films_World')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/MoviepubGroup')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
 
@@ -104,7 +104,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "36f1ae74ba1aa01e5bd73bdd0bc22aa915
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
-PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '3600'))
+PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '900'))
 
 # boolean settings
 USE_CAPTION_FILTER = is_enabled('USE_CAPTION_FILTER', False)
